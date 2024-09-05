@@ -1,0 +1,17 @@
+<svg id="health_insurance" xmlns="http://www.w3.org/2000/svg" width="23.955" height="23.955" viewBox="0 0 23.955 23.955">
+  <g id="Group_657" data-name="Group 657" transform="translate(0 0)">
+    <g id="Group_654" data-name="Group 654" transform="translate(3.993 4.474)">
+      <path id="Path_1476" data-name="Path 1476" d="M13.187,21.6H6.8a.8.8,0,1,1,0-1.6h6.388a.8.8,0,1,1,0,1.6Z" transform="translate(-6 -9.303)" fill="#fff"/>
+      <path id="Path_1496" data-name="Path 1496" d="M13.187,21.6H6.8a.8.8,0,1,1,0-1.6h6.388a.8.8,0,1,1,0,1.6Z" transform="translate(-6 -16.434)" fill="#fff"/>
+      <path id="Path_1498" data-name="Path 1498" d="M13.187,21.6H6.8a.8.8,0,1,1,0-1.6h6.388a.8.8,0,1,1,0,1.6Z" transform="translate(-6 -20)" fill="#fff"/>
+      <path id="Path_1497" data-name="Path 1497" d="M13.187,21.6H6.8a.8.8,0,1,1,0-1.6h6.388a.8.8,0,1,1,0,1.6Z" transform="translate(-6 -12.868)" fill="#fff"/>
+    </g>
+    <g id="Group_655" data-name="Group 655" transform="translate(3.993 18.366)">
+      <path id="Path_1477" data-name="Path 1477" d="M13.187,25.6H6.8a.8.8,0,1,1,0-1.6h6.388a.8.8,0,1,1,0,1.6Z" transform="translate(-6 -24)" fill="#fff"/>
+    </g>
+    <g id="Group_656" data-name="Group 656">
+      <path id="Path_1478" data-name="Path 1478" d="M21.761,1H4.194A3.2,3.2,0,0,0,1,4.194V24.157a.8.8,0,0,0,.8.8H19.366a.8.8,0,1,0,0-1.6H2.6V4.194a1.6,1.6,0,0,1,1.6-1.6H19.012a3.156,3.156,0,0,0-.444,1.6V15.373a.8.8,0,1,0,1.6,0V8.985h3.993a.8.8,0,0,0,.8-.8V4.194A3.2,3.2,0,0,0,21.761,1Zm1.6,6.388H20.164V4.194a1.6,1.6,0,0,1,3.194,0Z" transform="translate(-1 -1)" fill="#fff"/>
+    </g>
+    <path id="Path_1481" data-name="Path 1481" d="M26.784,19.229a9.029,9.029,0,0,1-3.6-1.124.8.8,0,0,0-.791,0,8.812,8.812,0,0,1-3.6,1.123.8.8,0,0,0-.8.8v2.457c0,4.04,3.15,5.3,4.494,5.839a.8.8,0,0,0,.593,0c1.345-.538,4.494-1.8,4.494-5.839V20.027A.8.8,0,0,0,26.784,19.229Zm-1.631,3.329-2.4,2.4a.8.8,0,0,1-1.129,0l-1.2-1.2a.8.8,0,0,1,1.129-1.129l.633.633,1.831-1.831a.8.8,0,0,1,1.129,1.129Z" transform="translate(-4.425 -4.425)" fill="#3498db"/>
+  </g>
+</svg>
