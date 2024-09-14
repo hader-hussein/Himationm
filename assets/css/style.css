@@ -303,7 +303,7 @@ display: none;
      .p-decerption{
       color: var(--color-p2);
       font-size: 18px;
-      line-height: 1.8em;
+      line-height: 1.5em;
         
      }
      .card-project{
@@ -446,6 +446,9 @@ display: none;
      /*end-content-us*/
    
      @media (max-width:600px) {
+      .img-content{
+        width: 280px;
+      }
       .title-caption {
 font-size: 32px;
       }
@@ -493,3 +496,66 @@ font-size: 32px;
     }
     
    }
+   /*social*/
+   .card-img, .card-img img{
+    width: 100%;
+    object-fit: cover;
+    height: 369px;
+   }
+   .navbar-changed {
+    background-color: #283851; /* اللون الذي تريده للصفحات الأخرى */
+}
+.img-content-top{
+  position: relative;
+}
+.titl-top{
+  bottom: 20px;
+    position: absolute;
+    color: #fff;
+    text-transform:uppercase;
+    font-size: 62px;
+}
+.img-content-top img{
+  height: 100%;
+}
+@media (min-width:1000px) {
+  .img-content-top{
+    height: 500px;
+  }
+  
+}
+@media (max-width:600px) {
+  .titl-top{
+    font-size: 16px;
+
+  }
+
+}
+.col-img-production{
+  height: 350px;
+}
+.col-img-production img{
+  height:100%;
+  object-fit:fill;
+}
+.title-h{
+  text-transform: uppercase;
+}
+.row-prinding .col:nth-child(3){
+  grid-column: 2;
+  column-span: 2 span;
+  width: 100%;
+}
+.card-img-pranding img{
+max-width: 368px;
+width: max-content;
+height: max-content;
+max-height: 437px;
+
+}
+@media (max-width:600px) {
+  .card-img-pranding img {
+    max-width: 250px;
+}
+}
+   /*social*/

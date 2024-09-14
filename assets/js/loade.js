@@ -73,4 +73,14 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+document.addEventListener("DOMContentLoaded", function () {
+  var navbar = document.querySelector('.navbar');
+  var currentPage = window.location.pathname;
 
+  // تحقق من الصفحة الحالية وغيّر لون الـ navbar
+  if (currentPage !== '/index.html') {
+      navbar.classList.add('navbar-changed');
+  } else {
+      navbar.classList.add('navbar-default');
+  }
+});
