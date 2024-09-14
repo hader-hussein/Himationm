@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var currentPage = window.location.pathname;
 
   // تحقق من الصفحة الحالية وغيّر لون الـ navbar
-  if (currentPage !== '/index.html') {
+  if (currentPage !== '/') {
       navbar.classList.add('navbar-changed');
   } else {
       navbar.classList.add('navbar-default');
