@@ -552,11 +552,7 @@ font-size: 32px;
   width: 100%;
 }
 
-@media (max-width:600px) {
-  .card-img-pranding img {
-    max-width: 250px;
-}
-}
+
 .row-ai {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 أعمدة */
@@ -681,4 +677,13 @@ max-height: 437px;
   .row-logo>div:nth-child(37){
     border-bottom-left-radius: 16px;
 
+  }
+  @media (max-width:600px) {
+    .card-img-pranding img {
+      max-width: 250px;
+  }
+  .title-title {
+    color: #283851;
+    font-size: 1.55em;
+  }
   }
