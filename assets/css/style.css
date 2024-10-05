@@ -687,3 +687,6 @@ max-height: 437px;
     font-size: 1.55em;
   }
   }
+  .nav-tabs-index li a:last-child{
+    padding-left: 0px;
+  }
