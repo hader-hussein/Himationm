@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'Acumin';
-    src:  url('../font/Acumin-Variable-Concept.ttf/Acumin\ Variable\ Concept.ttf') format('ttf');
+    src:  url('../font/AcuminVariableConcept.otf') format('otf');
     font-weight: normal;
     font-style: normal;
   }
@@ -330,7 +330,7 @@ display: none;
     font-size: 18px;
      }
      
-     .our-deftion .content-our-mission:last-child p,
+     .our-deftion .content-our-mission p,
      .our-deftion .content-our-mission:last-child h6
      {
       color: #283851 !important;
@@ -641,43 +641,28 @@ max-height: 437px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 8px 10px #1e2a3a2b;
+
     
    }
    .card-img-logo img{
     max-height: 130px;
     height:auto ;
    }
-   .row-logo {
+   
   
-    border-radius: 16px;
-    border: 1px solid #283851;
-   }
-  
-  
-  .row-logo>div:nth-child(-n+12) {
+  .row-color-solid-color {
     background-color: #283851;
   }
-  .row-logo>div:nth-child(n+31) {
-    background-color: #283851;
-    
+  .title-solid{
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 0px;
+    text-transform: capitalize;
   }
-  .row-logo>div:first-child{
-    border-top-left-radius: 16px;
-
-
-  }
-  .row-logo>div:nth-child(6){
-    border-top-right-radius: 16px;
-
-  }
-  .row-logo>div:last-child{
-    border-bottom-right-radius: 16px;
- 
-  }
-  .row-logo>div:nth-child(37){
-    border-bottom-left-radius: 16px;
-
-  }
+  
+  
+  
   @media (max-width:600px) {
     .card-img-pranding img {
       max-width: 250px;
@@ -690,3 +675,43 @@ max-height: 437px;
   .nav-tabs-index li a:last-child{
     padding-left: 0px;
   }
+  .img-our-clients{
+    box-shadow: 2px 8px 10px #1e2a3a2b;
+    border-radius: 8px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .img-our-clients img{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    max-height:130px ;
+   
+  }
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#prev-btn, #next-btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+.pagination-container button{
+  border: 0px;
+  box-shadow: 0px 8px 8px #1e2a3a2b;
+  background-color: #fff;
+  color: #1e2a3a;
+
+}
+
+#page-indicator {
+    padding: 5px;
+    color: #1e2a3a;
+    font-size: 18px;
+    font-weight: bold;
+}
