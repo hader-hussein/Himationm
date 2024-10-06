@@ -409,7 +409,7 @@ display: none;
 .nav-tabs-index .nav-link{
   color: var(--color-h);
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 400;
 }
 .nav-tabs-index .nav-link:hover{
   color: var(--color-hover);
