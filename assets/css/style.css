@@ -1,16 +1,21 @@
 
 @font-face {
   font-family: 'Acumin';
-    src:  url('../font/AcuminVariableConcept.otf') format('otf');
-    font-weight: normal;
-    font-style: Regular;
+    src:  url('../font/acumin-pro/Acumin-BdPro.otf') format('otf');
+    font-weight:800;
+    font-style: bold;
   }
- 
+  @font-face {
+    font-family: 'Acumin';
+      src:  url('../font/acumin-pro/Acumin-RPro.otf') format('otf');
+      font-weight:400;
+      font-style:regular;
+    }
 body{
      margin: 0px;
      padding: 0px;
      box-sizing: border-box;
-     font-family: 'Acumin'!important;
+     font-family: 'Acumin', sans-serif!important;
    
 }
 h1,h2,h3,h4,h5,h6{
