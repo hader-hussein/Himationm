@@ -192,7 +192,7 @@
                     </div>
                </div>
               
-               <div class="row row-logo mx-0 row-cols-lg-6 row-cols-md-4 row-cols-2 pt-2">
+               <div class="row row-logo mx-0 row-cols-lg-6 row-cols-md-4 row-cols-2 pt-2" id="image-container">
                   
                     <div class="col text-center">
                          <div class="card-img-logo">
@@ -285,6 +285,12 @@
                          </div>
                     </div>
                    
+               </div>
+                <!-- Pagination -->
+                <div class="pagination-container pt-4">
+                    <button id="prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                    <span id="page-indicator">Page 1</span>
+                    <button id="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
                </div>
           </div>
 
@@ -380,6 +386,52 @@
      <script src="./assets/js/bootstrap.bundle.min.js"></script>
      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
      <script src="./assets/js/loade.js"></script>
+     <script>
+          document.addEventListener("DOMContentLoaded", function () {
+    const imagesPerPage = 18;
+    const imageContainer = document.getElementById("image-container");
+    const images = imageContainer.children;
+    const totalPages = Math.ceil(images.length / imagesPerPage);
+    let currentPage = 1;
+
+    function showPage(page) {
+        // إخفاء جميع الصور
+        for (let i = 0; i < images.length; i++) {
+            images[i].style.display = "none";
+        }
+
+        // عرض الصور في الصفحة الحالية
+        const start = (page - 1) * imagesPerPage;
+        const end = Math.min(start + imagesPerPage, images.length);
+        for (let i = start; i < end; i++) {
+            images[i].style.display = "block";
+        }
+
+        // تحديث مؤشر الصفحة
+        document.getElementById("page-indicator").textContent = `Page ${currentPage}`;
+    }
+
+    // الانتقال إلى الصفحة السابقة
+    document.getElementById("prev-btn").addEventListener("click", function () {
+        if (currentPage > 1) {
+            currentPage--;
+            showPage(currentPage);
+        }
+    });
+
+    // الانتقال إلى الصفحة التالية
+    document.getElementById("next-btn").addEventListener("click", function () {
+        if (currentPage < totalPages) {
+            currentPage++;
+            showPage(currentPage);
+        }
+    });
+
+    // عرض الصفحة الأولى عند التحميل
+    showPage(currentPage);
+});
+
+     </script>
 </body>
 
 </html>
